@@ -7,7 +7,7 @@ Corrections to existing material are always welcome.
 
 ##Table of Contents
 
-* [Introduction](#introduction)
+* ####[Introduction](#introduction)
 
 
 * ####[Resources](#resources)
@@ -15,6 +15,9 @@ Corrections to existing material are always welcome.
 * ####[About the Author](#author)
 
 
+#<a name="introduction">Introduction</a>
+
+#<a name="resources">Resources</a>
 
 
 

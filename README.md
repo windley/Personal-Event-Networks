@@ -8,8 +8,8 @@ Corrections and suggestions are always welcome.
 ##Table of Contents
 
 * ####[Introduction](#introduction)
-  * #####The Second PC Revolution: Personal Clouds
-  * #####Federating Personal Event Networks 
+  * The Second PC Revolution: Personal Clouds
+  * Federating Personal Event Networks 
 
 
 

@@ -88,13 +88,13 @@ This semester, I'm teaching a class at BYU, CS462. We're using [Opher Etzion](ht
 
 The following diagram (from the [Event Processing Technical Society's site](http://www.ep-ts.com/content/view/80/111/)) illustrates the interactions that take place between various entities: 
 
-[ <img style="margin-top: 10px" src="http://farm8.staticflickr.com/7010/6698279659_058e6bca19.jpg" border="0" hspace="3" vspace="0" align="center" title="ffd_figure" alt="ffd_figure" /> ](http://www.flickr.com/photos/windley/6698279659/in/photostream/) 
+![Figure X. Fast flower delivery diagram using events](figures/Opher_Flower_deliver_diagram.gif)
 
 The example that Opher details in the book has been [implemented in several event processing systems](http://www.ep-ts.com/content/view/79/112/). 
 
 Consequently, as we implement the flowershop example in my class, we're going to do it with a personal event network twist. The result looks something like this diagram: 
 
-[ <img style="margin-top: 10px" src="http://farm8.staticflickr.com/7030/6698674287_4f802f5b40.jpg" border="0" hspace="3" vspace="0" align="center"  title="flowershop pen" alt="flowershop pen" /> ](http://www.flickr.com/photos/windley/6698674287/in/photostream/) 
+![Figure X. Delivering flowers with personal event networks](figures/Flower_delivery_pens.png)
 
 In the preceding diagram, there isn't one event system that manages the interactions between the shops and the drivers. Rather, each driver has their own personal event network, each shop has their own personal event network, and the guild has one too. The interactions arenâ€™t simply events raised within a single event network, but rather events raised between the networks of each participant. Iâ€™ve shown some of the apps that drivers, shops, and the guilds have installed on their personal event networks, but they would each be individually managed and configured. In fact, itâ€™s reasonable to assume that different drivers or shops might use different apps for the same purpose as long as they understood the events. 
 
@@ -104,7 +104,7 @@ There are design choices to be made in this system. For example, there's a *dire
 
 Overall, this example isn't terribly different from the [fourth-party ecommerce](http://www.windley.com/archives/2011/06/anonymous_ecommerce_building_a_real_4th_party_offer_application_with_kynetx.shtml) example I wrote about last June except that example featured hardwired connections between the shopper and the merchant rulesets. In contrast, this example uses the idea of event subscription to link merchants and customers. Event subscription takes the fourth-party example from a nice little demonstration to a conception of how [VRM](http://cyber.law.harvard.edu/projectvrm/Main_Page) could work in the real-world. The diagram shown above can be partitioned to illustrate this: 
 
-[ <img style="margin-top: 10px" src="http://farm8.staticflickr.com/7022/6698674409_3d6712b62d.jpg" border="0" hspace="3" vspace="0" align="center"  title="flowershop parties" alt="flowershop parties" /> ](http://www.flickr.com/photos/windley/6698674409/in/photostream/)
+![Figure X. How flower delivery with personal event networks fits into 4th-party interactions](figures/Flower_delivery_pens_4th_party.png)
 
 Together with our ideas about how notification occurs and how personal data can be managed in personal event networks, event subscription creates a powerful system for enabling a completely new kind of interaction between vendors and customers (note that in this example, the flowershop is the customer who is negotiating for and buying delivery services from the drivers).
 
@@ -123,13 +123,13 @@ Places are one way to organize an information system. The place metaphor leads t
 
 Of course, places are the only way we can organize information systems. To see what I mean, let me borrow an example from [Drummond Reed](http://equalsdrummond.name/). Drummond starts by reminding us what email looked like for most people in 1992: 
 
-[ <img style="margin-top: 10px" src="http://farm8.staticflickr.com/7183/6842154846_28eef1698a.jpg" border="0" hspace="3" vspace="0" align="center" title="Email with Places" alt="Email with Places" /> ](http://www.flickr.com/photos/windley/6842154846/in/photostream/)
+![Figure X. Email providers in 1990 looked like islands](figures/email_providers_1990.png)
 
 AOL, MCI, CompuServe, Prodigy, and a few other large players provided *places* where people could send email. These were centralized systems and interoperability was scarce to non-existent. You were captive within the island of email exchange defined by your provider. 
 
 But there was another way--literally *a way*--that some of us used email back in the day. We exchanged it using a protocol called [SMTP](http://en.wikipedia.org/wiki/SMTP). Protocols like SMTP define ways or methods for things to interact. They give the interaction a script, as it were, defining how an interaction plays out. "If you do X, then I'll do Y." "If you do X and then do Y, that's an error." and so on. Consequently, today email looks more like this: 
 
-[ <img style="margin-top: 10px" src="http://farm8.staticflickr.com/7042/6988278661_9a538370fb.jpg" border="0" hspace="3" vspace="0" align="center" title="Email with a Protocol" alt="Email with a Protocol" /> ](http://www.flickr.com/photos/windley/6988278661/in/photostream/)
+![Figure X. Email in 2012 looks different because of the SMTP protocol](figures/email_in_2012_with_SMTP.png)
 
 Are there big providers still? Sure. But they don't control email. I've moved my actual email service--without changing my email address--several times over the years. Right now I use GMail, but I could switch tomorrow if something better came along. 
 

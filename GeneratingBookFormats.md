@@ -10,5 +10,5 @@ pandoc -f markdown -t epub --epub-metadata=metadata.xml -o personal-event-networ
 You can use [Kindlegen](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000234621) to generate a mobi file (that can be loaded on the Kindle) from a pandoc ebook:
 
 ```
-kindlegen backbone-fundamentals.epub
+kindlegen personal-event-networks.epub
 ```

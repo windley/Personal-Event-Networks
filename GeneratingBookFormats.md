@@ -3,7 +3,7 @@
 Use [pandoc](http://johnmacfarlane.net/pandoc/) to generate an epub file. Be sure to use the metadata.xml file. 
 
 ```
-pandoc -f markdown -t epub --epub-metadata=metadata.xml -o backbone-fundamentals.epub README.md
+pandoc -f markdown -t epub --epub-metadata=metadata.xml -o personal-event-networks.epub README.md
 ```
 
 # Mobi

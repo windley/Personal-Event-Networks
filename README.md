@@ -88,7 +88,7 @@ This semester, I'm teaching a class at BYU, CS462. We're using [Opher Etzion](ht
 
 The following diagram (from the [Event Processing Technical Society's site](http://www.ep-ts.com/content/view/80/111/)) illustrates the interactions that take place between various entities: 
 
-![Figure X. Fast flower delivery diagram using events](figures/Opher_Flower_deliver_diagram.gif)
+![Figure X. Fast flower delivery diagram using events](./figures/Opher_Flower_deliver_diagram.gif)
 
 The example that Opher details in the book has been [implemented in several event processing systems](http://www.ep-ts.com/content/view/79/112/). 
 
